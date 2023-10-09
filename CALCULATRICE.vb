@@ -17,9 +17,6 @@ Public Class CALCULATRICE
         r.Text = nbr1 & "+" & nbr2 & "=" & total.ToString
 
 
-
-
-
     End Sub
 
     Private Sub moins_Click(sender As Object, e As EventArgs) Handles moins.Click

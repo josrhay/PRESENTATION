@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class main
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Form1))
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(main))
         Label1 = New Label()
         Label2 = New Label()
         Label3 = New Label()
@@ -105,12 +105,12 @@ Partial Class Form1
         Label1.BorderStyle = BorderStyle.FixedSingle
         Label1.Font = New Font("Algerian", 15.75F, FontStyle.Bold Or FontStyle.Underline, GraphicsUnit.Point)
         Label1.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
-        Label1.Location = New Point(145, 64)
+        Label1.Location = New Point(43, 64)
         Label1.Margin = New Padding(6, 0, 6, 0)
         Label1.Name = "Label1"
         Label1.Size = New Size(560, 50)
         Label1.TabIndex = 1
-        Label1.Text = "ENREGISTREMENT DES ETUDIANTS"
+        Label1.Text = " "
         Label1.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label2
@@ -261,7 +261,7 @@ Partial Class Form1
         MenuStrip1.Items.AddRange(New ToolStripItem() {FichierToolStripMenuItem, ModifierToolStripMenuItem, OutilsToolStripMenuItem, AideToolStripMenuItem})
         MenuStrip1.Location = New Point(0, 0)
         MenuStrip1.Name = "MenuStrip1"
-        MenuStrip1.Size = New Size(801, 24)
+        MenuStrip1.Size = New Size(630, 24)
         MenuStrip1.TabIndex = 12
         MenuStrip1.Text = "MenuStrip1"
         ' 
@@ -467,7 +467,7 @@ Partial Class Form1
         ToolStrip1.Items.AddRange(New ToolStripItem() {NouvelleToolStripButton, OuvrirToolStripButton, EnregistrerToolStripButton, ImprimerToolStripButton, toolStripSeparator6, CouperToolStripButton, CopierToolStripButton, CollerToolStripButton, toolStripSeparator7, AideToolStripButton})
         ToolStrip1.Location = New Point(0, 24)
         ToolStrip1.Name = "ToolStrip1"
-        ToolStrip1.Size = New Size(801, 25)
+        ToolStrip1.Size = New Size(630, 25)
         ToolStrip1.TabIndex = 13
         ToolStrip1.Text = "ToolStrip1"
         ' 
@@ -727,19 +727,19 @@ Partial Class Form1
         ' 
         Button1.BackColor = Color.FromArgb(CByte(0), CByte(192), CByte(0))
         Button1.Font = New Font("SimSun", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
-        Button1.Location = New Point(145, 623)
+        Button1.Location = New Point(43, 649)
         Button1.Name = "Button1"
         Button1.Size = New Size(560, 33)
         Button1.TabIndex = 21
         Button1.Text = "VALIDER"
         Button1.UseVisualStyleBackColor = False
         ' 
-        ' Form1
+        ' main
         ' 
         AutoScaleDimensions = New SizeF(13.0F, 23.0F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.Olive
-        ClientSize = New Size(801, 677)
+        ClientSize = New Size(630, 707)
         Controls.Add(Button1)
         Controls.Add(CheckedListBox1)
         Controls.Add(ListBox1)
@@ -775,7 +775,7 @@ Partial Class Form1
         Font = New Font("Showcard Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         MainMenuStrip = MenuStrip1
         Margin = New Padding(6, 5, 6, 5)
-        Name = "Form1"
+        Name = "main"
         Text = "ENREGISTREMENT DES ETUDIANTS"
         MenuStrip1.ResumeLayout(False)
         MenuStrip1.PerformLayout()
